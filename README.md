@@ -2,6 +2,7 @@ Login Form with Animated Google Button
 
 ![Image](https://github.com/user-attachments/assets/e98d361f-8be7-488d-9450-cb72291f1df9)
 
+![Image](https://github.com/user-attachments/assets/09bd1e93-a8cd-40e0-89ca-dd9b3247f86b)
 
 This project is a simple login form built using HTML, CSS, and JavaScript (DOM Manipulation).
 It includes form validation for email and password and a Google button animation that simulates a loading effect.
