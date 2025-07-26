@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page-1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap" rel="stylesheet">
+  </head>
+  <link rel="stylesheet" href="style.css" />
+
+  <body>
+    <nav>
+      <div class="form-wrapper">
+        <!-- Flex Container -->
+
+        <form >
+          <div class="form-container">
+            <div class="logo">
+              <img
+                src="https://static.vecteezy.com/system/resources/thumbnails/017/647/836/small_2x/megaphone-speech-bubble-and-vote-banner-for-business-marketing-and-advertising-free-vector.jpg"
+                width="120px"
+              />
+            </div>
+
+            <h1>Welcome Back</h1>
+            <button class="google">Login with Google</button>
+            <p>OR LOGIN WITH EMAIL</p>
+
+            <div class="inputs">
+              <div class="input">
+                <input type="email" id="email" placeholder="You Email" />
+                    <small id="error-Emessage">Email error!</small>
+              </div>
+              <div class="input">
+                <input type="password" id="password" placeholder="You password" />
+                 <small id="error-pmessage">Password Error!</small>
+              </div>
+            </div>
+
+            <div class="check-container">
+              <div class="check-box">
+                <input type="checkbox" />
+                <label>Keep me Logged in</label>
+              </div>
+
+              <div class="forget">
+                <a href="#">Forget password?</a>
+              </div>
+            </div>
+
+            <div class="login">
+              <button type="submit">Log in</button>
+            </div>
+            
+              <div id="result-message">
+            <p>Login Successful!</p>
+          </div>
+
+            <div class="footer">
+              <h5>Don't have an account yet?</h5>
+              <a href="#">Sign up</a>
+            </div>
+          </div>
+        </form>
+
+        <div class="right">
+          <div class="update">
+            <h4>New Update Avaliable</h4>
+            <p>We have added some new awesome features</p>
+            <button>LEARN MORE</button>
+          </div>
+          <img
+            src="https://www.shutterstock.com/image-vector/people-voting-democracy-social-political-260nw-1769859050.jpg"
+            alt="Voting"/>
+        </div>
+      </div>
+      <!-- End Flex Container -->
+    </nav>
+    <script src="script.js"></script>
+  </body>
+</html>
